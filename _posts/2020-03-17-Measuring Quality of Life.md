@@ -1,0 +1,21 @@
+---
+layout: post
+author: Chris Werner-Westoby
+---
+
+In the era of big data, there are potential opportunities to use data collection and analysis to improve peoples quality of lives. Many of us have our sleep, heart rate, food or activity tracked with fitness trackers, locations tracked with GPS, electronics usage with device histories, and actions tracked with calendars. While all this data collection might have negative implications, there does seem to be an opportunity to analyze how lifestyle affects quality of life. But how do you measure quality of life? There is no way to directly measure how good someones life is, but there are two types of measurements that you can use. Objective and Subjective quality of life.
+
+Objective quality of life
+--------------------
+
+Factual measurements that are directly related to quality of life, usually about populations (countries or cities). Examples: GDP per capita, crime rates
+
+Subjective quality of life
+----------------------
+Self reported answers to questions about quality of life. Examples: how happy are you on a scale from 1 to 10?
+
+
+The advantages of subjective measurement is that you can directly measure things like happiness. The disadvantage is that there is no method to make peoples answers accurate and consistent.
+
+Subjective measurements vary between and throughout days. If combined with some of the data that's already being collected, it may be possible to learn alot about what leads to a better life. Or atleast, what makes people think they have a better life.
+
