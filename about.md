@@ -1,11 +1,9 @@
 ---
-layout: default
-permalink: /about/
 ---
 <html>
 	<h1>About</h1>
 		<body>
-			<img src="profile.jpg" alt="me" width="438" height="503">
+			<img src="header.jpg" alt="me" >
 			<h1>Background</h1>
 			<p>Hi, my name is Chris Werner-Westoby. </p>
 			<p>I have a masters degree in statistics from the University of Guelph. My interests lie in how mathematics can be used to learn, make decisions and solve problems. I believe in developing a diverse skillset, life long learning and testing your assumptions.</p>

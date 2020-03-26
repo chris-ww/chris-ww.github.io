@@ -1,0 +1,14 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Resume"
+    url: /cv/
+  - title: "Projects"
+    url: /projects/
+  - title: "Posts"
+    url: /blog/
+  - title:"Gathering and Analyzing Personal Data"
+    url:/projects/tracking/
+

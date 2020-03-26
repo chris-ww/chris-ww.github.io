@@ -1,6 +1,4 @@
 ---
-layout: post
-author: Chris Werner-Westoby
 ---
 
 Most people have alot of data personal data on the internet that could be collected and analyzed. 

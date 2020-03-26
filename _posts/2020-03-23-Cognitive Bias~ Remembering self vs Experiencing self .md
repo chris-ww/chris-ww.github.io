@@ -1,6 +1,4 @@
 ---
-layout: post
-author: Chris Werner-Westoby
 ---
 One interesting question is how accurately do people rate experiences.  Nobel prize winning reseracher Daniel Kahneman found that people judge experiences in ways that seem irrational. He refered to people as two selves, the experiencing self and the remembering self.
 
@@ -30,7 +28,8 @@ After they had the 2 experiences, then were given the choice of which to repeat.
 
 80% of the people chose to repeat the Experience 2 even though it was the same as Experience 1 with an added 30 seconds of slightly less pain. Cognitive biases made people unwitingly choose to endure more pain.  
 
-![image](Cold hands.png)
+![alt]({{ site.url }}{{ site.baseurl }}/img/cold hands.png)
+
 
 This research begs the question, is it better to appease your exeriencing self or your remembering self. If you want to remember experiences better, you should try to optimize the peak and the end.
 

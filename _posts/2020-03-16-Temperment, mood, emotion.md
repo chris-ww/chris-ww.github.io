@@ -1,6 +1,4 @@
 ---
-layout: post
-author: Chris Werner-Westoby
 ---
 
 In measuring how someone feels about their life it is important to make the distinction between temperment, mood and emotion.

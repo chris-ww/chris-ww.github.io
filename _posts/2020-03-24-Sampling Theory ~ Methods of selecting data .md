@@ -1,6 +1,4 @@
 ---
-layout: post
-author: Chris Werner-Westoby
 ---
 
 Say you work in the head office of a restaurant chain and want to collect data on how employees of your company feel about the direction management has taken the company. You want to send surveys to a proportion of employees and get unbiased (accurate) and efficient (requires less samples) results .
@@ -38,8 +36,8 @@ Divide population into groups (strata) and then do simple random samples in each
 
 **Cons:** Might need to gather information on which strate people belong to.
 
+![alt]({{ site.url }}{{ site.baseurl }}/img/sampling.png)
 
-![image](sampling.png)
 **Figure:** The boxes are the entire population. Blue people are part of the sample
 
 Learn more:

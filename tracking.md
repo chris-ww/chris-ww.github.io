@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /projects/tracking
 ---
 Gathering and Analyzing Personal Data
@@ -436,4 +435,3 @@ Links
 [Link to code](https://github.com/chris-ww/personal-data)
 
 [Back](/)
-

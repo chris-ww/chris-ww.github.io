@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /cv/
 ---
 <html>
@@ -10,6 +9,5 @@ permalink: /cv/
 			<ul>
         		<a href="/">Back</a>
     		</ul>
-	</body>
 	</body>
 </html>

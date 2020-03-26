@@ -1,6 +1,5 @@
 ---
-layout: post
-author: Chris Werner-Westoby
+
 ---
 
 In the era of big data, there are potential opportunities to use data collection and analysis to improve peoples quality of lives. Many of us have our sleep, heart rate, food or activity tracked with fitness trackers, locations tracked with GPS, electronics usage with device histories, and actions tracked with calendars. While all this data collection might have negative implications, there does seem to be an opportunity to analyze how lifestyle affects quality of life. But how do you measure quality of life? There is no way to directly measure how good someones life is, but there are two types of measurements that you can use. Objective and Subjective quality of life.
