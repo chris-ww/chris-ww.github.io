@@ -14,6 +14,8 @@ Have each employee have an equal chance of being selected
 
 **Cons:** Can be difficult and Less efficient than other methods
 
+![alt]({{ site.url }}{{ site.baseurl }}/img/SRS.png)
+
 Convenience Sample
 ---------------------------------
 
@@ -23,7 +25,9 @@ Gather data based on how easy it is to collect
 
 **Pros:** Cheap and Easy
 
-**Cons:** Usually very biased
+**Cons:** Biased
+
+![alt]({{ site.url }}{{ site.baseurl }}/img/convenience.png)
 
 Stratified Sample
 ---------------------------------
@@ -36,9 +40,46 @@ Divide population into groups (strata) and then do simple random samples in each
 
 **Cons:** Might need to gather information on which strate people belong to.
 
-![alt]({{ site.url }}{{ site.baseurl }}/img/sampling.png)
+![alt]({{ site.url }}{{ site.baseurl }}/img/strata.png)
 
-**Figure:** The boxes are the entire population. Blue people are part of the sample
+Systemic sampling
+---------------------------------
+
+Put all members of population in an order. Select members in a systemic way.
+
+**Example:** Order employees by id number on a list, send surveys to every 4th employee in the list. Choose which employee to start with by rolling a 4 sided die.
+
+**Pros:** More efficient than random sampling if members closer together on the list are more similar.
+
+**Cons** Can be biased if there is a repeating patterns. Example: Sampling sales on every 7th day will mean you are sampling on the same weekday.  
+
+![alt]({{ site.url }}{{ site.baseurl }}/img/system.png)
+
+Cluster sampling
+---------------------------------
+
+Put members into clusters that would be easier to sample.  Select clusters to sample randomly and survey members of the clusters.
+
+**Example:** Cluster employees by Region. Randomly select which regions to sample, then give employees in the regions surveys. 
+
+**Pros:** It might be a lot easier to sample multiple members in the same location than from different locations. Example: Collecting 10 soil samples from 1 park is a lot easier than 10 samples from 10 parks.
+
+**Cons:** Often less efficient than random sampling or stratified sampling
+
+![alt]({{ site.url }}{{ site.baseurl }}/img/cluster.png)
+
+Multi-stage sampling
+---------------------------------
+
+Perform sampling in multiple stages.
+
+**Example:** Cluster employees by Region, then randomly select regions to use. In those regions, cluster employees by work location address. Send surveys to randomly selected work location addresses.
+
+**Pros:** Can be easier than simple random sampling
+
+**Cons:** Often less efficient than random sampling or stratified sampling
+
+![alt]({{ site.url }}{{ site.baseurl }}/img/multi.png)
 
 Learn more:
 -----------------------
