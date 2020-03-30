@@ -30,5 +30,9 @@ This phenomenon, and others that misattribute causality are common and show why 
 
 Learn more:
 -----------------------
+Code Used for graphs: https://github.com/chris-ww/Posts/blob/master/2020-03-30.R
+
 Book: Thinking Fast and Slow by Daniel Kahneman
-https://en.wikipedia.org/wiki/Regression_fallacy
+Wiki: https://en.wikipedia.org/wiki/Regression_fallacy
+Software: https://www.r-project.org/
+Code Used for graphs: https://github.com/chris-ww/Posts/blob/master/2020-03-30.R
