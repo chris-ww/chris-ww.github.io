@@ -9,6 +9,8 @@ main:
     url: /projects/
   - title: "Posts"
     url: /blog/
+  - title: "Recomended Readings"
+    url: /books/   
   - title:"Gathering and Analyzing Personal Data"
     url:/projects/tracking/
 

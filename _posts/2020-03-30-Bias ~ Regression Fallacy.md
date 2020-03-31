@@ -35,4 +35,4 @@ Code Used for graphs: https://github.com/chris-ww/Posts/blob/master/2020-03-30.R
 Book: Thinking Fast and Slow by Daniel Kahneman
 Wiki: https://en.wikipedia.org/wiki/Regression_fallacy
 Software: https://www.r-project.org/
-Code Used for graphs: https://github.com/chris-ww/Posts/blob/master/2020-03-30.R
+
