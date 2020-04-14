@@ -13,4 +13,6 @@ main:
     url: /books/   
   - title:"Gathering and Analyzing Personal Data"
     url:/projects/tracking/
+  - title:"New York Crime Data Dashboard"
+    url:/projects/crime/
 
