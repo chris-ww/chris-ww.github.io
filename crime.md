@@ -42,7 +42,17 @@ You can select a crime and zoom to anywhere on the map of New York City.
 ![image](img/location_in.PNG)
 ![image](img/location_in_in.PNG)
 
+Summary Information
+--------------------------------------------------------
 
+Most common crimes in dataset
+
+![image](img/top20.png)
+
+The most commonly reported crimes over the decade were petit larceny, harrassment in the 2nd degree and assault in the 3rd degree.  
+* Petit larceny: Theft Under $1000 
+* Harrassment 2nd degree: Single Incident Harrassment 
+* Assault Third Degree: Assualt without substantial pain or physical inhury
 
 
 
