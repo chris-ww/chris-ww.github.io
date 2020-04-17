@@ -1,5 +1,5 @@
 ---
-permalink: /projects/tracking
+permalink: /projects/tracking/
 ---
 Gathering and Analyzing Personal Data
 ======================================
