@@ -1,5 +1,5 @@
 ---
-permalink: /projects/crime
+permalink: /projects/crime/
 ---
 For this project I used reported crime data from new york city.
 
