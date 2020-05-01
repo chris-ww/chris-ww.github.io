@@ -186,7 +186,7 @@ Planning/Assessing- Discussion
 
 The same analytics/opmiziation/process improvement is possible to use to improve individual "life performance" as is with buisiness performance. Though there is a big difference in resources available to take advantage of it. So there has to be a decision abouit what to focus on.  
 
-** Experiments **
+**Experiments**  
 In this format it is possible to set up experiments.
 for example:
 - How does a supplement (e.g caffeine/melatonin) affect your productivity/sleep
@@ -194,21 +194,23 @@ for example:
 - Does drinking more water make you feel better
 - Do meditation or other thought exercise improve your wellbeing
 
-** Advanced Questions **
+**Advanced Questions**  
 These types of analysis could anwer some complicated question that could have a significant impact. 
 - Does a certain schedule improve your work/happiness
 - What time investments/tasks have the most returns
-- What improves your quality of life
-** Challenges **
+- What improves your quality of life  
+
+**Challenges**  
 There are a few large hurdles to answering some of the more complicated questions
 - Time and resources
 - Ability to collect large amounts of data
 - Good metrics- Need metrics that can represent complicated/subjective values
 - Collecting alot of manual data could be inconvenient/disruptive
 
-** Societal Impact**
+**Societal Impact**  
 There is also the possibilty in the future that the mass data collection already taking place could be used for improving wellbeing. But there are still many questions/issues with data privacy and data security that society hasn't figured out.
 
+**Conclusion**  
 In the near future I am going to continue to look for good metrics and find which data is useful and convenient to collect. 
 Thanks for reading. If you have any insight you would like to add, I would be happy to hear it.
 
