@@ -1,7 +1,6 @@
 ---
 permalink: /projects/tracking/
 ---
-[Link to code](https://github.com/chris-ww/personal-data){: .btn .btn--primary}
 
 Project Scope
 ----------------------
