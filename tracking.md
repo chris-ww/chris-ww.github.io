@@ -1,28 +1,27 @@
 ---
 permalink: /projects/tracking/
 ---
+[Link to code](https://github.com/chris-ww/personal-data){: .btn .btn--primary}
 
 Project Scope
 ----------------------
 
 The goal of this project is to collect personal data and discover its value in learning about and improve quality of life.
 
-- **Research:** 
+
+- [**Research:**](/projects/tracking/#research---data-sources){: .btn .btn--primary}
     - Discover personal data that can be collected and Analysed
-- **Data Engineering**: 
+- [**Data Engineering**:](/projects/tracking/#data-engineering){: .btn .btn--primary}
     - Extract Data from Api's and Csv's with python
     - Store Data in local database
     - Set up automatic update schedule with airflow,and backfill previous days data
-- **Data Cleaning:**
+- [**Data Cleaning:**](/projects/tracking/#data-cleaningmanipulation){: .btn .btn--primary}
     - Transform Data to consistent date formats
     - Map important features in the data
-- **Data Visualisation**
+- [**Data Visualisation**](/projects/tracking/#data-visualisation){: .btn .btn--primary}
     - Plot daily data as metrics with goals on bullet graphs
     - PLot historical data to discover any trends
-- **Data Analysis**
-    - Find correlations from data that has already been collected
-- **Planning/Assessing:**
-    - Discuss potential future data sources
+- [**Planning/Assessing:**](/projects/tracking/#planningassessing--discussion){: .btn .btn--primary}
     - Discuss potential future data analysis
     - Discuss strategies that could have the most practical impact
     - Discuss social/technological potential
@@ -71,10 +70,46 @@ I found tons of sources of personal data. I wanted to use data sources that fit 
 - Emails and communication
 - Weather data
 - online shopping
+- News sentiment/positivity/negativity
 
 Data Engineering
 -------------------------------
-   
+
+Example portion of "import.py"
+{% highlight python %}
+
+def fitbit_client(id,secret):
+    """
+    connects to fitbit api client
+    id: user fitbit api id
+    secret: firbit api password
+    returns: fitbit client connection
+    """
+    server = Oauth2.OAuth2Server(id, secret)
+    server.browser_authorize()
+    accesstoken = str(server.fitbit.client.session.token['access_token'])
+    refreshtoken = str(server.fitbit.client.session.token['refresh_token'])
+    client = fitbit.Fitbit(id, secret, oauth2=True, access_token=accesstoken, refresh_token=refreshtoken)
+    return client
+    
+ def collect_body(date,client):
+    """
+    Retrieve weight data from fitbit api
+    date: date to collect
+    client: connection to api
+    return: pandas dataframe with weight data
+    """
+    time_list = []
+    val_list = []
+    body = client.body(date=date)
+    bodydf = pd.DataFrame({'date':date,
+                'weight':body['body']['weight'],
+                'fat':body['body']['fat']
+                },index=[0])
+    return bodydf
+  
+{% endhighlight %}
+
 **Steps**
 - Extract and parse data from various sources with python
 - Store in database
@@ -103,6 +138,23 @@ I used airflow to automate the daily data collection with the "collect_fitbit.py
 
 ![image](img/airflow.PNG)
 
+Data Cleaning/Manipulation
+-------------------------------
+
+Using R there were some simple steps to make the data standardised and easily useable.
+- The dates were standardised to a consistent format
+- Features were added( e.g. Categorize productive/unproductive tasks)
+- Missing values were dealt with
+- grouping/summarizing
+
+Example manipulation
+{% highlight R %}
+#Getting sums of productive and unproductive activities per day
+rescue_histdf<-rescue_histdf %>%
+  group_by(date,productive) %>%
+  summarise(duration=sum(duration))
+{% endhighlight %}
+
 Data Visualisation
 ---------------------------
 
@@ -129,7 +181,63 @@ Here is a graph of time on computer time on productive/unproductive applications
 
 There is a fair amount of variability in the graphs but there doesn't appear to be any long term trends except slightly lower weight.
 
-Data analysis
-----------------------------------------------
 
+Planning/Assessing- Discussion
+-------------------------------
 
+The same analytics/opmiziation/process improvement is possible to use to improve individual "life performance" as is with buisiness performance. Though there is a big difference in resources available to take advantage of it. So there has to be a decision abouit what to focus on.  
+
+** Experiments **
+In this format it is possible to set up experiments.
+for example:
+- How does a supplement (e.g caffeine/melatonin) affect your productivity/sleep
+- Do certain resumes perform better
+- Does drinking more water make you feel better
+- Do meditation or other thought exercise improve your wellbeing
+
+** Advanced Questions **
+These types of analysis could anwer some complicated question that could have a significant impact. 
+- Does a certain schedule improve your work/happiness
+- What time investments/tasks have the most returns
+- What improves your quality of life
+** Challenges **
+There are a few large hurdles to answering some of the more complicated questions
+- Time and resources
+- Ability to collect large amounts of data
+- Good metrics- Need metrics that can represent complicated/subjective values
+- Collecting alot of manual data could be inconvenient/disruptive
+
+** Societal Impact**
+There is also the possibilty in the future that the mass data collection already taking place could be used for improving wellbeing. But there are still many questions/issues with data privacy and data security that society hasn't figured out.
+
+In the near future I am going to continue to look for good metrics and find which data is useful and convenient to collect. 
+Thanks for reading. If you have any insight you would like to add, I would be happy to hear it.
+
+[Back](/projects/){: .btn .btn--primary}
+
+References
+-----------------------------
+[Link to code](https://github.com/chris-ww/personal-data){: .btn .btn--primary}
+- **Fitbit and API**
+    - [https://dev.fitbit.com/](https://dev.fitbit.com/)
+    - [https://dev.fitbit.com/build/reference/web-api/](https://dev.fitbit.com/build/reference/web-api/)
+    - [https://python-fitbit.readthedocs.io/en/latest/](https://python-fitbit.readthedocs.io/en/latest/)
+    - [https://towardsdatascience.com/collect-your-own-fitbit-data-with-python-ff145fa10873](https://towardsdatascience.com/collect-your-own-fitbit-data-with-python-ff145fa10873)
+- **Rescuetime and api**
+    - [https://www.rescuetime.com/apidoc](https://www.rescuetime.com/apidoc)
+    - [https://github.com/OpenHorizonLabs/rescuetime-python3](https://github.com/OpenHorizonLabs/rescuetime-python3)
+- **Google api**
+    - [https://developers.google.com/calendar](https://developers.google.com/calendar)
+    - [https://takeout.google.com/settings/takeout](https://takeout.google.com/settings/takeout)
+    - [https://developers.google.com/calendar/quickstart/python](https://developers.google.com/calendar/quickstart/python)
+- **Python and python-packages**
+    - [https://pandas.pydata.org/pandas-docs/stable/index.html](https://pandas.pydata.org/pandas-docs/stable/index.html)
+    - [https://www.python.org/](https://www.python.org/)
+    - [https://airflow.apache.org/docs/stable/](https://airflow.apache.org/docs/stable/)
+    - [https://docs.python.org/2/library/sqlite3.html](https://docs.python.org/2/library/sqlite3.html)
+- **R and R-packages**
+    - [https://www.r-project.org/](https://www.r-project.org/)
+    - [https://github.com/mtorchiano/MTkR](https://github.com/mtorchiano/MTkR)
+    - [https://www.tidyverse.org/packages/](https://www.tidyverse.org/packages/)
+- **SQlite**
+    - [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html)
