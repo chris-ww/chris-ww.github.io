@@ -7,8 +7,6 @@ main:
     url: /cv/
   - title: "Projects"
     url: /projects/
-  - title: "Posts"
-    url: /blog/
   - title: "Recomended Readings"
     url: /books/   
   - title: "Gathering and Analyzing Personal Data"
