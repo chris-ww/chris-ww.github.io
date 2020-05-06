@@ -1,17 +1,38 @@
 ---
 ---
-<html>
-	<h1>About</h1>
-		<body>
-			<img src="header.jpg" alt="me" >
-			<h1>Background</h1>
-			<p>Hi, my name is Chris Werner-Westoby. </p>
-			<p>I have a masters degree in statistics from the University of Guelph. My interests lie in how mathematics can be used to learn, make decisions and solve problems. I believe in developing a diverse skillset, life long learning and testing your assumptions.</p>
-			<p>I also have skills in software development including programming (Python, R, C), databases query (SQL), cloud computing (AWS), version control (GIT), and spreadsheets (Excel). As well as the ability to work on larger projects with that require software development/planning and object-oriented programming skill.</p>
+About
+----------------------
 
-			<ul>
-        		<a href="/">Back</a>
-    		</ul>
-	</body>
-	
-</html>
+![image](img/header.jpg)
+
+
+Background
+----------------------------
+
+Hi, my name is Chris Werner-Westoby
+
+I work with problem solving using Statistics/ Machine learning and AI. My goal is to develop a broad range of skills and an become the best version of myself that i can. I hope for a career that keeps on the edge of current knowledge/technology, creates positive challenges and and has a postive societal impact.
+
+Interests
+---------------------------
+
+I have a wide variety of interests including.
+
+- **Mathematical:** Statistics, machine learning, AI, AGI, decision theory.
+- **Science:** Biology (ecology, genetics, physiology), Pyschology (Thinking/learning, social/group psychology)
+- **Humanities:** Philosophy (science, epistemology, ethics)
+- **Hobbies:** Fitness, rock climbing, camping/hiking, programming, Reading
+
+
+Contact
+----------------------------
+
+Feel free to contact me or connect
+
+Email: ww.chris@outlook.com  
+linkedin: [www.linkedin.com/in/chris-werner-westoby](https://www.linkedin.com/in/chris-werner-westoby)
+
+
+
+
+[Back](/){: .btn .btn--primary}
