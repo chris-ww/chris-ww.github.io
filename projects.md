@@ -14,5 +14,10 @@ Projects
     - **Tools:** R, Shiny  
     - **Tags:** Big Data, Dashboards, Data analysis  
 
+- [Scheduling](/projects/scheduler/){: .btn .btn--primary} [**Github Code**](https://github.com/chris-ww/scheduler){: .btn .btn--primary}
+    - **Description:** A simple scheduling package to assign/reassign employees to tasks
+    - **Tools:** Python, MySQL, Cron
+    - **Tags:** scheduling
+
 
 [Back](/){: .btn .btn--primary}
