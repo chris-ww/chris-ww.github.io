@@ -14,6 +14,7 @@ permalink: /books/
 - Deep Learning: **Deep Learning** by Aaron Courville, Ian Goodfellow, and Yoshua Bengio
 - Reinforcement learning: **Reinforcement learning COMPM050/COMPGI13** By David Silver, University College London
 - Computer Vision: **CS231n: Convolutional Neural Networks for Visual Recognition** By Andrej Karpathy, Stanford
+- Natural Language Proceesing: **CS224n: Natural Language Processing with Deep Learning** Stanford
 - Causal Inference: **Causal Inference in Statistics** By Judea Pearl, Madelyn Glymour and Nicholas P. Jewell
 - Bayesian Networks: **Risk Assessment and Decision Analysis with Bayesian Networks** by Norman Fenton and Martin Niel
 - Generalised Linear Models: **Extending the Linear Model with R** by Julian Faraway
