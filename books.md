@@ -32,6 +32,7 @@ permalink: /books/
 - Charisma: **The Charisma Myth** By Olivia Fox Cabane
 - Networking: **Never Eat Alone** By Kieth Ferrazzi
 - Communication: **Effective Communication Skills** audiocourse by Dalton Kehoe
+- Sales: **To Sell is Human** by Daniel Pink
 
 **Technical**
 - Software Design: **https://www.tutorialspoint.com/software_engineering/software_design_basics.htm** Website
