@@ -33,6 +33,7 @@ permalink: /books/
 - Networking: **Never Eat Alone** By Kieth Ferrazzi
 - Communication: **Effective Communication Skills** audiocourse by Dalton Kehoe
 - Sales: **To Sell is Human** by Daniel Pink
+- Buisiness Improvisation: **Getting to "Yes And"** by Bob Kulhan 
 
 **Technical**
 - Software Design: **https://www.tutorialspoint.com/software_engineering/software_design_basics.htm** Website
