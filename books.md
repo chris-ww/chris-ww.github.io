@@ -25,6 +25,8 @@ permalink: /books/
 - Influence and Marketing: **influence** by Robert Caldini
 - Negotiation: **Never split the difference** by Chris Voss
 - Body Language: **What EveryBody is Saying** By Joe Navaro
+- Moral Psychology **The Rightious mind** By Jonathan Haidt
+- Cognitive therapy **Feeling Good** By David Burns
 
 **Soft Skills**
 - Overspecialization: **Range** by David Epstien
