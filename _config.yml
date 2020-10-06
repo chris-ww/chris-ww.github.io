@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Chris Werner-Westoby"
 title_separator          : "-"
-subtitle                 : Integrating Mathematics and Technology for smarter solutions
+subtitle                 : 
 name                     : "Chris Werner-Westoby"
 description              : "An amazing website."
 url                      : "https://chris-ww.github.io/"
