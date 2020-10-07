@@ -1,8 +1,7 @@
 ---
+title: projects
 ---
 
-Projects
-========================
 
 - [New York City Crime Dashboards/Analysis](/projects/crime/){: .btn .btn--primary} [**Github Code**](https://github.com/chris-ww/crime-data){: .btn .btn--primary}
     - **Description:** Using Reported crime data from New york City

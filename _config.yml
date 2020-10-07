@@ -108,7 +108,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/chris-ww/"
- 
+
 
 # Site Footer
 footer:
@@ -209,7 +209,10 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
+head_scripts:
+  - /assets/js/test.js
+  
+ 
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
