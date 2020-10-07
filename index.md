@@ -93,7 +93,7 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
     if(isCollide(document.getElementById("mydiv"),document.getElementById("lock"))){
-        document.getElementById("p1").innerHTML ="You have unlocked a useless trophy";
+        document.getElementById("p1").innerHTML ="You have unlocked a useless trophy!!";
         document.getElementById("lock").src = '/img/trophy.png';
     }
   }
