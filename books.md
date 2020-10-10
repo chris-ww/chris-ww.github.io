@@ -2,11 +2,14 @@
 permalink: /books/
 ---
 
-**Modelling and Prediction**
+**Knowledge, rationality and prediction**
+- Cognitive Biases: **Thinking Fast and Slow** by Daniel Kahneman 
 - Predictions: **The Signal and the noise** by Nate Silver
 - Forecasting: **Superforecasting: The Art and Science of Prediction** by Philip E. Tetlock and Dan Gardner
-- Mathematical Models: **The Model Thinker** By Scott E. Page
 - Philosophy of Science: **Philosophy of Science** audiocourse by Jeffrey Kasser
+- Extreme events: **The Black Swann** by Nicholas Taleb
+- Epistemology: **Theories of Knowledge** audiocourse by Joseph H Schieber
+
 
 **Math/Stats/ML**
 - Statistical Inference: **Statistical Inference** by Casella and Berger
@@ -19,28 +22,22 @@ permalink: /books/
 - Bayesian Networks: **Risk Assessment and Decision Analysis with Bayesian Networks** by Norman Fenton and Martin Niel
 - Generalised Linear Models: **Extending the Linear Model with R** by Julian Faraway
 - Survival Analysis: **Modelling Survival Data in Medical Research** by David Collet 
+- Mathematical Models: **The Model Thinker** By Scott E. Page
 
-**Psychology**
-- Cognitive Biases: **Thinking Fast and Slow** by Daniel Kahneman 
+**Psychology and Social science**
 - Influence and Marketing: **influence** by Robert Caldini
 - Negotiation: **Never split the difference** by Chris Voss
 - Body Language: **What EveryBody is Saying** By Joe Navaro
 - Moral Psychology **The Rightious mind** By Jonathan Haidt
 - Cognitive therapy **Feeling Good** By David Burns
-
-**Soft Skills**
 - Overspecialization: **Range** by David Epstien
-- Productivity: **Getting Things Done** by David Allen
-- Charisma: **The Charisma Myth** By Olivia Fox Cabane
-- Networking: **Never Eat Alone** By Kieth Ferrazzi
 - Communication: **Effective Communication Skills** audiocourse by Dalton Kehoe
-- Sales: **To Sell is Human** by Daniel Pink
-- Buisiness Improvisation: **Getting to "Yes And"** by Bob Kulhan 
 
 **Technical**
 - Software Design: **https://www.tutorialspoint.com/software_engineering/software_design_basics.htm** Website
 - Clinical Trials: **Design and Interpretation of Clinical Trials** By John Hopkins on Coursera (Course that can be audited for free)
 - Data Cleaning: **An introduction to data cleaning with R** Discusion Paper By  Edwin de Jonge, Mark van der Loo
+- Productivity: **Getting Things Done** by David Allen
 
 **Fiction**
 - **A Song of Ice and Fire**(5 books) By George R.R. Martin
