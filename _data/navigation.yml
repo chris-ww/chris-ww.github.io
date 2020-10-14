@@ -7,8 +7,8 @@ main:
     url: /cv/
   - title: "Projects"
     url: /projects/
-  - title: "Recomended Readings"
-    url: /books/   
+  - title: "Recomended Resources"
+    url: /resources/   
   - title: "Gathering and Analyzing Personal Data"
     url: /projects/tracking/
   - title: "New York Crime Data Dashboard"
