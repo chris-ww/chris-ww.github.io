@@ -16,9 +16,9 @@ Requires MySQL database with:
 Employees Table, (ID, Name, hours available, Assigned(ID of Task Assigned to)
 Tasks Table (ID,Name, Expected Hours, Fully Assigned(Binary, Completely Assigned 1, Otherwise 0), complete(binary))
 
-scheduler.py: code for scheduler
-main.py: Script triggers employee assignment
-check_jobs.py: Script triggers job/employee check
+scheduler.py: code for scheduler  
+main.py: Script triggers employee assignment  
+check_jobs.py: Script triggers job/employee check  
 
 [Back](/projects/){: .btn .btn--primary}
 

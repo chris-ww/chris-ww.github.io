@@ -13,6 +13,8 @@ main:
     url: /projects/tracking/
   - title: "New York Crime Data Dashboard"
     url: /projects/crime/
+  - title: "Reinforcement Learning in goal seeking game"
+    url: /projects/rl/
     
 
 
