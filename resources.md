@@ -41,18 +41,20 @@ Some recomendations of resources (books, courses, podcasts etc) That I have read
 - Communication: **Effective Communication Skills** audiocourse by Dalton Kehoe
 - Liking: **The like Switch** by Jack Schafer
 - Listening: **Just Listen** by Mark Goulson
-- Nuerochemitry: **The Chemistry Between Us** by Larry Young and Brian Alexander
-
+- Neurochemistry: **The Chemistry Between Us** by Larry Young and Brian Alexander
 
 **Technical**
 - Software Design: **https://www.tutorialspoint.com/software_engineering/software_design_basics.htm** Website
 - Clinical Trials: **Design and Interpretation of Clinical Trials** By John Hopkins on Coursera (Course that can be audited for free)
 - Data Cleaning: **An introduction to data cleaning with R** Discusion Paper By  Edwin de Jonge, Mark van der Loo
-
+- Software Development practices: **The pragmatic programmer** By David Thomas and Andrew Hunt
+- Measurement for analysis: **How to measure anything** By Douglas W. Hubbard
 
 **Scientific Papers**
 - Repository: **Arxiv Sanity** By Andrej Karpathy
 
+**Science**
+- Physics: **The theory of Everything** course by Don Lincoln
 
 **Fiction**
 - **A Song of Ice and Fire**(5 books) By George R.R. Martin
